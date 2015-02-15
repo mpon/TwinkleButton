@@ -1,6 +1,6 @@
 //
-//  EffectButtonTests.swift
-//  EffectButtonTests
+//  TwinkleButtonTests.swift
+//  TwinkleButtonTests
 //
 //  Created by Masato Oshima on 2015/02/15.
 //  Copyright (c) 2015年 Masato Oshima. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class EffectButtonTests: XCTestCase {
+class TwinkleButtonTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

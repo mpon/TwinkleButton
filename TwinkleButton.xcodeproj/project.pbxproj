@@ -10,12 +10,12 @@
 		5392B1891A90C9FF004F503A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392B1881A90C9FF004F503A /* AppDelegate.swift */; };
 		5392B18B1A90C9FF004F503A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392B18A1A90C9FF004F503A /* ViewController.swift */; };
 		5392B18E1A90C9FF004F503A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5392B18C1A90C9FF004F503A /* Main.storyboard */; };
-		5392B1901A90C9FF004F503A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5392B18F1A90C9FF004F503A /* Images.xcassets */; };
+		5392B1901A90C9FF004F503A /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5392B18F1A90C9FF004F503A /* image.xcassets */; };
 		5392B1931A90C9FF004F503A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5392B1911A90C9FF004F503A /* LaunchScreen.xib */; };
-		5392B19F1A90CA00004F503A /* EffectButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392B19E1A90CA00004F503A /* EffectButtonTests.swift */; };
+		5392B19F1A90CA00004F503A /* TwinkleButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392B19E1A90CA00004F503A /* TwinkleButtonTests.swift */; };
 		5392B1C01A90DDC1004F503A /* twinkle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5392B1BE1A90DDC1004F503A /* twinkle.sks */; };
 		5392B1C11A90DDC1004F503A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5392B1BF1A90DDC1004F503A /* spark.png */; };
-		5392B1C71A90E977004F503A /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5392B1C61A90E977004F503A /* image.xcassets */; };
+		5392B1C71A90E977004F503A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5392B1C61A90E977004F503A /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,19 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5392B1831A90C9FF004F503A /* EffectButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5392B1871A90C9FF004F503A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5392B1881A90C9FF004F503A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5392B18A1A90C9FF004F503A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5392B1831A90C9FF004F503A /* TwinkleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwinkleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5392B1871A90C9FF004F503A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../TwinkleButton/Info.plist; sourceTree = "<group>"; };
+		5392B1881A90C9FF004F503A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../TwinkleButton/AppDelegate.swift; sourceTree = "<group>"; };
+		5392B18A1A90C9FF004F503A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../TwinkleButton/ViewController.swift; sourceTree = "<group>"; };
 		5392B18D1A90C9FF004F503A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5392B18F1A90C9FF004F503A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5392B18F1A90C9FF004F503A /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = image.xcassets; path = ../TwinkleButton/image.xcassets; sourceTree = "<group>"; };
 		5392B1921A90C9FF004F503A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		5392B1981A90CA00004F503A /* EffectButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5392B19D1A90CA00004F503A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5392B19E1A90CA00004F503A /* EffectButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectButtonTests.swift; sourceTree = "<group>"; };
-		5392B1BE1A90DDC1004F503A /* twinkle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = twinkle.sks; sourceTree = "<group>"; };
-		5392B1BF1A90DDC1004F503A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
-		5392B1C61A90E977004F503A /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
+		5392B1981A90CA00004F503A /* TwinkleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwinkleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5392B19D1A90CA00004F503A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../TwinkleButtonTests/Info.plist; sourceTree = "<group>"; };
+		5392B19E1A90CA00004F503A /* TwinkleButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwinkleButtonTests.swift; path = ../TwinkleButtonTests/TwinkleButtonTests.swift; sourceTree = "<group>"; };
+		5392B1BE1A90DDC1004F503A /* twinkle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = twinkle.sks; path = ../TwinkleButton/twinkle.sks; sourceTree = "<group>"; };
+		5392B1BF1A90DDC1004F503A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = ../TwinkleButton/spark.png; sourceTree = "<group>"; };
+		5392B1C61A90E977004F503A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../TwinkleButton/Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 		5392B17A1A90C9FF004F503A = {
 			isa = PBXGroup;
 			children = (
-				5392B1851A90C9FF004F503A /* EffectButton */,
-				5392B19B1A90CA00004F503A /* EffectButtonTests */,
+				5392B1851A90C9FF004F503A /* TwinkleButton */,
+				5392B19B1A90CA00004F503A /* TwinkleButtonTests */,
 				5392B1841A90C9FF004F503A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,25 +74,26 @@
 		5392B1841A90C9FF004F503A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5392B1831A90C9FF004F503A /* EffectButton.app */,
-				5392B1981A90CA00004F503A /* EffectButtonTests.xctest */,
+				5392B1831A90C9FF004F503A /* TwinkleButton.app */,
+				5392B1981A90CA00004F503A /* TwinkleButtonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5392B1851A90C9FF004F503A /* EffectButton */ = {
+		5392B1851A90C9FF004F503A /* TwinkleButton */ = {
 			isa = PBXGroup;
 			children = (
 				5392B1881A90C9FF004F503A /* AppDelegate.swift */,
 				5392B18A1A90C9FF004F503A /* ViewController.swift */,
 				5392B18C1A90C9FF004F503A /* Main.storyboard */,
-				5392B18F1A90C9FF004F503A /* Images.xcassets */,
+				5392B1C61A90E977004F503A /* Images.xcassets */,
 				5392B1911A90C9FF004F503A /* LaunchScreen.xib */,
 				5392B1861A90C9FF004F503A /* Supporting Files */,
 				5392B1BE1A90DDC1004F503A /* twinkle.sks */,
 				5392B1BF1A90DDC1004F503A /* spark.png */,
-				5392B1C61A90E977004F503A /* image.xcassets */,
+				5392B18F1A90C9FF004F503A /* image.xcassets */,
 			);
+			name = TwinkleButton;
 			path = EffectButton;
 			sourceTree = "<group>";
 		};
@@ -104,12 +105,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5392B19B1A90CA00004F503A /* EffectButtonTests */ = {
+		5392B19B1A90CA00004F503A /* TwinkleButtonTests */ = {
 			isa = PBXGroup;
 			children = (
-				5392B19E1A90CA00004F503A /* EffectButtonTests.swift */,
+				5392B19E1A90CA00004F503A /* TwinkleButtonTests.swift */,
 				5392B19C1A90CA00004F503A /* Supporting Files */,
 			);
+			name = TwinkleButtonTests;
 			path = EffectButtonTests;
 			sourceTree = "<group>";
 		};
@@ -124,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5392B1821A90C9FF004F503A /* EffectButton */ = {
+		5392B1821A90C9FF004F503A /* TwinkleButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5392B1A21A90CA00004F503A /* Build configuration list for PBXNativeTarget "EffectButton" */;
+			buildConfigurationList = 5392B1A21A90CA00004F503A /* Build configuration list for PBXNativeTarget "TwinkleButton" */;
 			buildPhases = (
 				5392B17F1A90C9FF004F503A /* Sources */,
 				5392B1801A90C9FF004F503A /* Frameworks */,
@@ -136,14 +138,14 @@
 			);
 			dependencies = (
 			);
-			name = EffectButton;
+			name = TwinkleButton;
 			productName = EffectButton;
-			productReference = 5392B1831A90C9FF004F503A /* EffectButton.app */;
+			productReference = 5392B1831A90C9FF004F503A /* TwinkleButton.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5392B1971A90CA00004F503A /* EffectButtonTests */ = {
+		5392B1971A90CA00004F503A /* TwinkleButtonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5392B1A51A90CA00004F503A /* Build configuration list for PBXNativeTarget "EffectButtonTests" */;
+			buildConfigurationList = 5392B1A51A90CA00004F503A /* Build configuration list for PBXNativeTarget "TwinkleButtonTests" */;
 			buildPhases = (
 				5392B1941A90CA00004F503A /* Sources */,
 				5392B1951A90CA00004F503A /* Frameworks */,
@@ -154,9 +156,9 @@
 			dependencies = (
 				5392B19A1A90CA00004F503A /* PBXTargetDependency */,
 			);
-			name = EffectButtonTests;
+			name = TwinkleButtonTests;
 			productName = EffectButtonTests;
-			productReference = 5392B1981A90CA00004F503A /* EffectButtonTests.xctest */;
+			productReference = 5392B1981A90CA00004F503A /* TwinkleButtonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -177,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5392B17E1A90C9FF004F503A /* Build configuration list for PBXProject "EffectButton" */;
+			buildConfigurationList = 5392B17E1A90C9FF004F503A /* Build configuration list for PBXProject "TwinkleButton" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -190,8 +192,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5392B1821A90C9FF004F503A /* EffectButton */,
-				5392B1971A90CA00004F503A /* EffectButtonTests */,
+				5392B1821A90C9FF004F503A /* TwinkleButton */,
+				5392B1971A90CA00004F503A /* TwinkleButtonTests */,
 			);
 		};
 /* End PBXProject section */
@@ -204,9 +206,9 @@
 				5392B1C01A90DDC1004F503A /* twinkle.sks in Resources */,
 				5392B1C11A90DDC1004F503A /* spark.png in Resources */,
 				5392B18E1A90C9FF004F503A /* Main.storyboard in Resources */,
-				5392B1C71A90E977004F503A /* image.xcassets in Resources */,
+				5392B1C71A90E977004F503A /* Images.xcassets in Resources */,
 				5392B1931A90C9FF004F503A /* LaunchScreen.xib in Resources */,
-				5392B1901A90C9FF004F503A /* Images.xcassets in Resources */,
+				5392B1901A90C9FF004F503A /* image.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5392B19F1A90CA00004F503A /* EffectButtonTests.swift in Sources */,
+				5392B19F1A90CA00004F503A /* TwinkleButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +244,7 @@
 /* Begin PBXTargetDependency section */
 		5392B19A1A90CA00004F503A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5392B1821A90C9FF004F503A /* EffectButton */;
+			target = 5392B1821A90C9FF004F503A /* TwinkleButton */;
 			targetProxy = 5392B1991A90CA00004F503A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -254,6 +256,7 @@
 				5392B18D1A90C9FF004F503A /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../TwinkleButton;
 			sourceTree = "<group>";
 		};
 		5392B1911A90C9FF004F503A /* LaunchScreen.xib */ = {
@@ -262,6 +265,7 @@
 				5392B1921A90C9FF004F503A /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ../TwinkleButton;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -348,9 +352,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = EffectButton/Info.plist;
+				INFOPLIST_FILE = TwinkleButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TwinkleButton;
 			};
 			name = Debug;
 		};
@@ -358,9 +362,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = EffectButton/Info.plist;
+				INFOPLIST_FILE = TwinkleButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TwinkleButton;
 			};
 			name = Release;
 		};
@@ -376,10 +380,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = EffectButtonTests/Info.plist;
+				INFOPLIST_FILE = TwinkleButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EffectButton.app/EffectButton";
+				PRODUCT_NAME = TwinkleButtonTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwinkleButton.app/TwinkleButton";
 			};
 			name = Debug;
 		};
@@ -391,17 +395,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = EffectButtonTests/Info.plist;
+				INFOPLIST_FILE = TwinkleButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EffectButton.app/EffectButton";
+				PRODUCT_NAME = TwinkleButtonTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwinkleButton.app/TwinkleButton";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5392B17E1A90C9FF004F503A /* Build configuration list for PBXProject "EffectButton" */ = {
+		5392B17E1A90C9FF004F503A /* Build configuration list for PBXProject "TwinkleButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5392B1A01A90CA00004F503A /* Debug */,
@@ -410,21 +414,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5392B1A21A90CA00004F503A /* Build configuration list for PBXNativeTarget "EffectButton" */ = {
+		5392B1A21A90CA00004F503A /* Build configuration list for PBXNativeTarget "TwinkleButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5392B1A31A90CA00004F503A /* Debug */,
 				5392B1A41A90CA00004F503A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5392B1A51A90CA00004F503A /* Build configuration list for PBXNativeTarget "EffectButtonTests" */ = {
+		5392B1A51A90CA00004F503A /* Build configuration list for PBXNativeTarget "TwinkleButtonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5392B1A61A90CA00004F503A /* Debug */,
 				5392B1A71A90CA00004F503A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
