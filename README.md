@@ -4,4 +4,4 @@ Twinkle Button
 Adding the twinkle effect, which is made by SpriteKit to UIButton.
 
 
-![twinkle.gif](twinkle.gif)
+<img src="twinkle.gif" alt="twinkle" width="320">
