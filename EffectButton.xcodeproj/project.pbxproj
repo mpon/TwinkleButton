@@ -13,6 +13,9 @@
 		5392B1901A90C9FF004F503A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5392B18F1A90C9FF004F503A /* Images.xcassets */; };
 		5392B1931A90C9FF004F503A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5392B1911A90C9FF004F503A /* LaunchScreen.xib */; };
 		5392B19F1A90CA00004F503A /* EffectButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392B19E1A90CA00004F503A /* EffectButtonTests.swift */; };
+		5392B1C01A90DDC1004F503A /* twinkle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5392B1BE1A90DDC1004F503A /* twinkle.sks */; };
+		5392B1C11A90DDC1004F503A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5392B1BF1A90DDC1004F503A /* spark.png */; };
+		5392B1C71A90E977004F503A /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5392B1C61A90E977004F503A /* image.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		5392B1981A90CA00004F503A /* EffectButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5392B19D1A90CA00004F503A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5392B19E1A90CA00004F503A /* EffectButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectButtonTests.swift; sourceTree = "<group>"; };
+		5392B1BE1A90DDC1004F503A /* twinkle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = twinkle.sks; sourceTree = "<group>"; };
+		5392B1BF1A90DDC1004F503A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		5392B1C61A90E977004F503A /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				5392B18F1A90C9FF004F503A /* Images.xcassets */,
 				5392B1911A90C9FF004F503A /* LaunchScreen.xib */,
 				5392B1861A90C9FF004F503A /* Supporting Files */,
+				5392B1BE1A90DDC1004F503A /* twinkle.sks */,
+				5392B1BF1A90DDC1004F503A /* spark.png */,
+				5392B1C61A90E977004F503A /* image.xcassets */,
 			);
 			path = EffectButton;
 			sourceTree = "<group>";
@@ -192,7 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5392B1C01A90DDC1004F503A /* twinkle.sks in Resources */,
+				5392B1C11A90DDC1004F503A /* spark.png in Resources */,
 				5392B18E1A90C9FF004F503A /* Main.storyboard in Resources */,
+				5392B1C71A90E977004F503A /* image.xcassets in Resources */,
 				5392B1931A90C9FF004F503A /* LaunchScreen.xib in Resources */,
 				5392B1901A90C9FF004F503A /* Images.xcassets in Resources */,
 			);

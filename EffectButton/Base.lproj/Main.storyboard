@@ -16,9 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlB-NU-4a7">
-                                <rect key="frame" x="176" y="323" width="22" height="22"/>
-                                <state key="normal">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlB-NU-4a7">
+                                <rect key="frame" x="166" y="314" width="42" height="40"/>
+                                <state key="normal" image="star_gray">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -34,4 +34,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="star_gray" width="42" height="40"/>
+    </resources>
 </document>
